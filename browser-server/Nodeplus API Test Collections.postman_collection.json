@@ -1,0 +1,2898 @@
+{
+	"info": {
+		"_postman_id": "83b04554-b219-4d78-9d7e-93ab328541f1",
+		"name": "Nodeplus API Test Collections",
+		"description": "随便加个描述",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24784217"
+	},
+	"item": [
+		{
+			"name": "首页接口",
+			"item": [
+				{
+					"name": "POST 搜索导航",
+					"item": [
+						{
+							"name": "type=block",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"47714141\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=transaction",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"0x4bd2df9edf0f1bea9025ca0b8a8e84943c9c029cabf3dea9610e3d1899cd178c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=address",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"lat164lck2djw8nd2e88svcx259c8a08eqryzh5mtd\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=staking",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=contract",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"lat1fg3u5qy8rnu7gryjznnuvj8fewnvp9efj3zew0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=空值",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "type=错误字符",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"parameter\": \"contrac1545121*/-+-!2t\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/queryNavigation",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"queryNavigation"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 出块趋势",
+					"item": [
+						{
+							"name": "场景：实时请求",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/blockStatistic",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"blockStatistic"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "基础数据",
+					"item": [
+						{
+							"name": "实时查询",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/chainStatistic",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"chainStatistic"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "验证人列表",
+					"item": [
+						{
+							"name": "实时查询",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/home/stakingList",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"home",
+										"stakingList"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "地址接口",
+			"item": [
+				{
+					"name": "POST 查询地址详情",
+					"item": [
+						{
+							"name": "【有bug】address type=1(用户地址)，address=lat164lck2djw8nd2e88svcx259c8a08eqryzh5mtd",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat164lck2djw8nd2e88svcx259c8a08eqryzh5mtd\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address type=2(内置合约地址)，address=lat1zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq93t3hkm",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat1zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq93t3hkm\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address type=3(EVM合约)，address=lat102nl6qzhxjg0lp67rcrf4a72jg8cc832gyaz3s",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat102nl6qzhxjg0lp67rcrf4a72jg8cc832gyaz3s\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address type=5(ERC20_EVM)，address=lat100ytrddt5n0nh60e5vk6u5qjznwqunelnrjw5s",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat100ytrddt5n0nh60e5vk6u5qjznwqunelnrjw5s\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "【有疑问】address type=6(ERC721_EVM)，address=lat100hjyufpp2ms5hzdgh3f4hl2355rn7frwnnf43",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat100hjyufpp2ms5hzdgh3f4hl2355rn7frwnnf43\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "【有疑问】address type=5(ERC1155_EVM)，address=lat102u32hu0kj3xjzxvd3gl8tameqc2f75cpuecle",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat102u32hu0kj3xjzxvd3gl8tameqc2f75cpuecle\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address=错误值",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"0x330a58562fAbeBa3EAb175147095CC4CfEE94D24\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address=空值",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 查询锁仓详情",
+					"item": [
+						{
+							"name": "【有疑问】address=lat1m8x8fexj8qp0yk5fkgscthkwacj5equgxqq92m，pageNo=0,pageSize=0",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"lat1m8x8fexj8qp0yk5fkgscthkwacj5equgxqq92m\",\r\n  \"pageNo\": 0,\r\n  \"pageSize\":0 \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/rpplanDetail",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"rpplanDetail"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address= ，pageNo=0,pageSize=0",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "address=8x8fexj8qp0yk5fkgscthkwacj5equgxqq92m ，pageNo=0,pageSize=0",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"address\": \"8x8fexj8qp0yk5fkgscthkwacj5+-*/equgxqq92m\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/details",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"details"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 1.1 地址列表按余额大小排序",
+					"item": [
+						{
+							"name": "有页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressvalue",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressvalue"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "较大页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 10000000,\r\n  \"pageSize\": 1000000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressvalue",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressvalue"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数为空时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressvalue",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressvalue"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 1.2地址列表所有字段的排序",
+					"item": [
+						{
+							"name": "有页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressValueAllCols",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressValueAllCols"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "较大页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 10000000,\r\n  \"pageSize\": 1000000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressValueAllCols",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressValueAllCols"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数为空时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/addressValueAllCols",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"addressValueAllCols"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 2.5.1每日锁仓解锁的所有地址总金额列表，以解锁的高度排序",
+					"item": [
+						{
+							"name": "有页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getAllEpoch",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getAllEpoch"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "较大页码和条数请求时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 10000000,\r\n  \"pageSize\": 1000000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getAllEpoch",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getAllEpoch"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数为空时",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getAllEpoch",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getAllEpoch"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 2.5.3查看特定epoch和区块号下的解锁情况",
+					"item": [
+						{
+							"name": "正确页码、条数、对应的epoch和区块号",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"epoch\": 536,\r\n  \"unlockNumber\": 43998991\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getRpPlanByUnlockNumber",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getRpPlanByUnlockNumber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "较大页码、条数、对应的epoch和正确的区块号",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1000000,\r\n  \"pageSize\": 10000000,\r\n  \"epoch\": 536,\r\n  \"unlockNumber\": 43998991\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getRpPlanByUnlockNumber",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getRpPlanByUnlockNumber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数为空，对应epoch和正确区块号",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0,\r\n  \"epoch\": 536,\r\n  \"unlockNumber\": 43998991\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getRpPlanByUnlockNumber",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getRpPlanByUnlockNumber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数正常，epoch和区块号为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"epoch\": ,\r\n  \"unlockNumber\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getRpPlanByUnlockNumber",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getRpPlanByUnlockNumber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数正常，区块号非法",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0,\r\n  \"epoch\": 536,\r\n  \"unlockNumber\": 4399*/-+8991\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getRpPlanByUnlockNumber",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getRpPlanByUnlockNumber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数正常，正确的区块号但和epoch不对应",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0,\r\n  \"epoch\": 637,\r\n  \"unlockNumber\": 43998991\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getAllEpoch",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getAllEpoch"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数、区块号和epoch均为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 0,\r\n  \"pageSize\": 0,\r\n  \"epoch\": ,\r\n  \"unlockNumber\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/address/getAllEpoch",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"address",
+										"getAllEpoch"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "内置地址接口",
+			"item": [
+				{
+					"name": "POST 查询内置账户信息",
+					"item": [
+						{
+							"name": "页数为1条数为5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 5\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/internalAddress/foundationInfo",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"internalAddress",
+										"foundationInfo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码和条数较大",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 10000,\r\n  \"pageSize\": 10000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/internalAddress/foundationInfo",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"internalAddress",
+										"foundationInfo"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "区块接口",
+			"item": [
+				{
+					"name": "POST 区块列表",
+					"item": []
+				},
+				{
+					"name": "POST 节点的区块列表",
+					"item": []
+				},
+				{
+					"name": "GET 导出节点的区块列表",
+					"item": []
+				},
+				{
+					"name": "POST 区块详情",
+					"item": []
+				},
+				{
+					"name": "POST 区块详情前后跳转浏览",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "Token令牌接口",
+			"item": [
+				{
+					"name": "POST Token令牌列表",
+					"item": []
+				},
+				{
+					"name": "POST Token令牌详情",
+					"item": []
+				},
+				{
+					"name": "POST ARC20交易列表",
+					"item": []
+				},
+				{
+					"name": "GET ARC20交易列表导出",
+					"item": []
+				},
+				{
+					"name": "POST ARC721交易列表",
+					"item": []
+				},
+				{
+					"name": "GET ARC721交易列表导出",
+					"item": []
+				},
+				{
+					"name": "POST Token 令牌持有者列表",
+					"item": []
+				},
+				{
+					"name": "GET Token 令牌持有者列表导出",
+					"item": []
+				},
+				{
+					"name": "POST 持有者的Token令牌列表",
+					"item": []
+				},
+				{
+					"name": "GET 持有者的Token令牌列表导出",
+					"item": []
+				},
+				{
+					"name": "POST  ARC721 库存列表",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "提案接口",
+			"item": [
+				{
+					"name": "POST 提案列表",
+					"item": []
+				},
+				{
+					"name": "POST 提案详情",
+					"item": []
+				},
+				{
+					"name": "POST 投票列表",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "验证人接口",
+			"item": [
+				{
+					"name": "POST 汇总数据",
+					"item": []
+				},
+				{
+					"name": "POST 实时验证人列表",
+					"item": []
+				},
+				{
+					"name": "POST 历史验证人列表",
+					"item": []
+				},
+				{
+					"name": "POST 已锁定验证人列表",
+					"item": []
+				},
+				{
+					"name": "POST 验证人详情",
+					"item": []
+				},
+				{
+					"name": "POST 节点操作记录",
+					"item": []
+				},
+				{
+					"name": "POST 验证人的委托列表",
+					"item": []
+				},
+				{
+					"name": "GET 节点历史出块数",
+					"item": [
+						{
+							"name": "正确的nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getBlockCountHistoryByNode?nodeId=0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getBlockCountHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "非法的Nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getBlockCountHistoryByNode?nodeId=2323232+-+*-/+323232326262g6f2g6f2fg6g2fg2fdg3",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getBlockCountHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "2323232+-+*-/+323232326262g6f2g6f2fg6g2fg2fdg3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Nodeid 为空",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getBlockCountHistoryByNode?nodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getBlockCountHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 节点历史年化率",
+					"item": [
+						{
+							"name": "正确的nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server//v2/staking/getDeleAnnualizedRateHistoryByNode?nodeId=0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"",
+										"v2",
+										"staking",
+										"getDeleAnnualizedRateHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "非法的Nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getDeleAnnualizedRateHistoryByNode?nodeId=0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5+-*/*-+-*/7d55465ee82457653c3cee6886916e00e5fe0",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getDeleAnnualizedRateHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5+-*/*-+-*/7d55465ee82457653c3cee6886916e00e5fe0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Nodeid 为空",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getDeleAnnualizedRateHistoryByNode?nodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getDeleAnnualizedRateHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 节点历史中质押和总委托",
+					"item": [
+						{
+							"name": "正确的nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getTotalValueHistoryByNode?nodeId=0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getTotalValueHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "非法的Nodeid",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getTotalValueHistoryByNode?nodeId=0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884b+-*//*-++-*/~c3cee6886916e00e5fe0",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getTotalValueHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": "0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884b+-*//*-++-*/~c3cee6886916e00e5fe0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Nodeid 为空",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/staking/getTotalValueHistoryByNode?nodeId=",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"staking",
+										"getTotalValueHistoryByNode"
+									],
+									"query": [
+										{
+											"key": "nodeId",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "交易接口",
+			"item": [
+				{
+					"name": "POST 交易列表",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 区块的交易列表",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 导出地址交易列表",
+					"item": []
+				},
+				{
+					"name": "POST 交易详情",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"txHash\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionDetails",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionDetails"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST 地址的领取奖励列表",
+					"item": []
+				},
+				{
+					"name": "POST 节点相关的领取奖励列表",
+					"item": []
+				},
+				{
+					"name": "历史委托列表",
+					"item": [
+						{
+							"name": "合理的页码条数，发起委托，正确nodeid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1004,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "超大的页码条数，发起委托，正确nodeid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 100000,\r\n  \"pageSize\": 1000000,\r\n  \"type\": 1004,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，发起委托，非法nodeid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1004,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814-+*/2f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，发起委托，nodeid为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1004,\r\n  \"nodeId\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，赎回委托，正确nodeid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1005,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "超大的页码条数，赎回委托，正确nodeid",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 100000,\r\n  \"pageSize\": 1000000,\r\n  \"type\": 1005,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814fd479591297776bd82f0e7c5d5ff795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，赎回委托，nodeid 非法",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1005,\r\n  \"nodeId\": \"0x319f490441599123d70d7a53f54814fd4795+-*/*-+f795505b884bfe178e9c776e05950b93337d55465ee82457653c3cee6886916e00e5fe0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，赎回委托，nodeid为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 10,\r\n  \"type\": 1005,\r\n  \"nodeId\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/queryDelegationLogByNodeId",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"queryDelegationLogByNodeId"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "大额交易列表",
+					"item": [
+						{
+							"name": "合理的页码条数，合理金额",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 2,\r\n  \"value\": 10000000000000000000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，金额极小",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 2,\r\n  \"value\": 0.0000000000000000000000000000000000000001\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，金额为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 2,\r\n  \"value\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数，金额为非数字",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 2,\r\n  \"value\": hf\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "超大的页码条数，金额合理",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 100000000000,\r\n  \"pageSize\": 10000000000,\r\n  \"value\": 1000000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码条数为空，金额合理",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": ,\r\n  \"pageSize\": ,\r\n  \"value\": 10000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "页码条数为空，金额为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": ,\r\n  \"pageSize\": ,\r\n  \"value\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "分页查交易",
+					"item": [
+						{
+							"name": "合理的页码条数",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": 1,\r\n  \"pageSize\": 2\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListWithValue",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListWithValue"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "合理的页码条数为空",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"pageNo\": ,\r\n  \"pageSize\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/transaction/transactionListByValueSelective",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"transaction",
+										"transactionListByValueSelective"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "gas接口",
+			"item": [
+				{
+					"name": "GET 3.1 gas费用估计",
+					"item": [
+						{
+							"name": "gas费估计",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/gas/gasPriceEstimate",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"gas",
+										"gasPriceEstimate"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 3.2 每个区块的费用统计",
+					"item": [
+						{
+							"name": "每个区块的费用统计",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/gas/getGasPriceHistoryGroupByBlock",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"gas",
+										"getGasPriceHistoryGroupByBlock"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 3.3gasprice 统计",
+					"item": [
+						{
+							"name": "gasprice统计",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/gas/getCountGroupByGasPrice",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"gas",
+										"getCountGroupByGasPrice"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 3.4不同交易gas消耗估计",
+					"item": [
+						{
+							"name": "不同交易gas消耗估计",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/gas/getCostGroupByTxType",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"gas",
+										"getCostGroupByTxType"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET 3.5 查看pending状态尚未打包的交易",
+					"item": [
+						{
+							"name": "查看pending状态未打包交易",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "application",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://platon-api.figo.network/browser-server/v2/gas/getPendingTxInfo",
+									"protocol": "https",
+									"host": [
+										"platon-api",
+										"figo",
+										"network"
+									],
+									"path": [
+										"browser-server",
+										"v2",
+										"gas",
+										"getPendingTxInfo"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
