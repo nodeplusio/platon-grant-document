@@ -1,0 +1,110 @@
+1. 安装mysql5.7(使用官方仓库安装 MySQL)
+
+wget https://repo.mysql.com//mysql-apt-config_0.8.12-1_all.deb
+
+sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+
+弹出图形界面
+
+对于ubuntu20，选择 Ubuntu Bionic，点击OK
+
+选择默认MySQL 8.0（第一个），点击OK
+
+选择MySQL 5.7 server，点击ok
+
+默认选择MySQL5.7，选择ok选择项，点击ok
+
+sudo apt update
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 467B942D3A79BD29
+
+apt update
+
+sudo apt install mysql-client=5.7.40-1ubuntu18.04
+
+sudo apt install mysql-community-server=5.7.40-1ubuntu18.04
+
+sudo apt install mysql-server=5.7.40-1ubuntu18.04
+
+输入两次密码，完成mysql的安装
+
+创建scan_platon数据库
+
+数据表程序自动创建
+
+2.xxl-job-admin安装(需要安装jdk1.8.0_181)
+
+wget https://github.com/xuxueli/xxl-job/archive/refs/tags/2.3.0.tar.gz
+
+tar xvf 2.3.0.tar.gz
+
+cd xxl-job-2.3.0
+
+mvn clean package
+
+编译之前需要进行一些初始化准备
+
+1. 使用代码目录下的 doc/db/tables_xxl_job.sql 进行数据化初始化操作，创建数据库创建表结构
+2. 修改xxl-job-admin/src/main/resources/logback.xml中日志文件位置
+3. 修改xxl-job-admin/src/main/resources/application.properties文件中的内容
+4. 修改 spring.datasource 相关内容，改数据库信息
+5. 修改 xxl.job.accessToken 修改成一个类似 AVXLSWADKRESDCCFDFM 这样的字符串
+6. 修改 server.port 指定监听端口8100
+7. 运行 mvn clean package 重新编译
+
+启动
+java -jar xxl-job-admin-2.3.0.jar
+
+
+3、安装ES7.4.2
+
+安装ES
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.2-amd64.deb
+
+sudo dpkg -i elasticsearch-7.4.2-amd64.deb
+
+修改配置文件
+sudo vim  /etc/elasticsearch/elasticsearch.yml
+ 
+#放开node.name注释，可更改名称
+node.name: node-1
+
+#添加
+cluster.initial_master_nodes: ["node-1"] #这里的node-1为node-name配置的值
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable elasticsearch.service
+
+sudo systemctl start elasticsearch.service 
+
+安装Kibana(Kibana的版本要与ES适配)
+wget https://artifacts.elastic.co/downloads/kibana/kibana-7.4.2-amd64.deb
+
+sudo dpkg -i kibana-7.4.2-amd64.deb
+
+sudo systemctl enable kibana.service
+
+sudo systemctl enable kibana.service
+
+配置文件/etc/kibana/kibana.yml修改这一行：elasticsearch.hosts: ["http://localhost:9200"]
+
+sudo systemctl start kibana.service
+
+
+4.安装redis
+
+安装
+sudo apt install redis-server
+
+开机启动
+systemctl enable redis-server.service
+
+配置文件路径
+
+sudo vim /etc/redis/redis.conf
+
+
+
+
+
