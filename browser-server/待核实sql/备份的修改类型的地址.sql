@@ -1,0 +1,11 @@
+
+-- 备份的修改类型的地址，类型7->3
+insert into address (address, type, balance, restricting_balance, staking_value, delegate_value, redeemed_value, candidate_count, delegate_hes, delegate_locked, delegate_released, contract_name, contract_create, contract_createHash, contract_destroy_hash, contract_bin, create_time, update_time, have_reward, tx_qty, transfer_qty, delegate_qty, staking_qty, proposal_qty, erc1155_tx_qty, erc721_tx_qty, erc20_tx_qty)
+values  ('lat102u32hu0kj3xjzxvd3gl8tameqc2f75cpuecle', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'lat1v9t4nkz3nhrh77e2g25s49gje5q4r9a8c83mll', '0xed0c9a365464077813aa8599ea1473e881e7f79d8fd2f968ec0a35b3761b82d6', null, null, '2022-12-03 13:00:20', '2022-12-03 22:13:00', 0, 5, 0, 0, 0, 0, 0, 0, 0),
+        ('lat152j7t39ezxsr3gvsv0m0np8qjwc703ht2lu6t2', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', null, null, '2022-12-07 19:00:01', '2022-12-07 19:00:01', 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        ('lat1586w50gtxet9esgluqlad7rqghn9j09pzwyxdh', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'lat1v9t4nkz3nhrh77e2g25s49gje5q4r9a8c83mll', '0x8ae4fce958bb4ce6828cf171fa0da099207c293afef6e4509533342fba1b7569', null, null, '2022-12-03 13:00:19', '2022-12-03 13:00:30', 0, 1, 0, 0, 0, 0, 0, 0, 0),
+        ('lat17dqru5vnadqncznnkaj6rj03t8yt5mscp78tlm', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', null, null, '2022-12-09 06:48:20', '2022-12-09 06:48:20', 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        ('lat1kmre6enp8atdw43h47nkx0vf82zt9gcsnzamyn', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', null, null, '2022-12-07 19:00:17', '2022-12-07 19:00:17', 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        ('lat1sqez3xv5x6k2002cz62t3yrjcdwtne5dn45l9l', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', null, null, '2022-12-07 19:56:51', '2022-12-07 19:56:51', 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        ('lat1wedlf63luguf0zg7ema54we8rwrqur6wd7k2cz', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'lat1zrq89dhle45g78mm4j8aq3dq5m2shpu56ggc6e', '0xdadf09eeca030464ae1726f6f3d53e14f0f962e10efb106fb93d425a7eff7227', null, null, '2022-12-07 20:36:08', '2022-12-07 20:36:30', 0, 2, 0, 0, 0, 0, 0, 0, 0),
+        ('lat1ytpkj7qje3hj2hkel3vqsasz2asqz7tqwwr589', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', null, null, '2022-12-07 19:56:53', '2022-12-07 19:56:53', 0, 0, 0, 0, 0, 0, 0, 0, 0);
