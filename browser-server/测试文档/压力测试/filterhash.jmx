@@ -142,7 +142,7 @@
         </ResultCollector>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV 数据文件设置" enabled="true">
-          <stringProp name="filename">./test-minedTransactions.csv</stringProp>
+          <stringProp name="filename">./test-filterhash.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">param</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
